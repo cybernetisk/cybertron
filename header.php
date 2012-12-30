@@ -81,14 +81,14 @@
         </a>
         <h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
     </header>
+    <div class="navigation-main">
+        <?php
+            wp_nav_menu( array(
+                'items_wrap' => '<ul id="%1$s" class="nav %2$s">%3$s</ul>',
+                'theme_location' => 'main_navigation'
+            ) );
+            ?>
+    </div>
     <div class="body">
-        <div class="grid-item navigation-main">
-            <?php
-                wp_nav_menu( array(
-                    'items_wrap' => '<ul id="%1$s" class="nav %2$s">%3$s</ul>',
-                    'theme_location' => 'main_navigation'
-                ) );
-                ?>
-        </div>
         <div class="grid-item" role="main">
             <body <?php body_class(); ?>>

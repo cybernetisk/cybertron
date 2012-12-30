@@ -44,15 +44,6 @@
   width: 49.111%;
 }
 
-/* line 1, sass/patterns/navigation.large.scss */
-.navigation-main {
-  background-image: url("img/penguin-happy.png");
-  background-position: left bottom;
-  background-repeat: no-repeat;
-  padding-bottom: 200px;
-  width: 10em;
-}
-
 /* line 2, sass/patterns/page.large.scss */
 .page-container .body {
   overflow: hidden;
@@ -70,7 +61,7 @@
 }
 /* line 4, sass/patterns/page.large.scss */
 .page-container .body [role="main"] {
-  width: 49.111%;
+  width: 74.556%;
 }
 
 /* line 9, sass/patterns/page.large.scss */
@@ -96,4 +87,12 @@
 /* line 12, sass/mixins/grid.medium.scss */
 .page-footer > .grid-item:first-child {
   margin-left: 25.444%;
+}
+
+/* line 16, sass/patterns/page.large.scss */
+.page-sidebar {
+  background-image: url("img/penguin-happy.png");
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  padding-bottom: 200px;
 }

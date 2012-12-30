@@ -66,6 +66,9 @@
     border-bottom: solid 2px $color-divider;
     margin: 1em 0;
     padding: 0 1em 1em;
+    header {
+      margin: 0 -1em;
+    }
     iframe {
       width: 100%;
     }
@@ -91,6 +94,9 @@
   }
 }
 .block-slideshow {
-  margin: 0 auto;
-  width: $dimension-slideshow-width;
+  background-color: black;
+  .box_skitter {
+    margin: 0 auto;
+    max-width: 100% !important;
+  }
 }
