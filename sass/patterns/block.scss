@@ -1,0 +1,96 @@
+@import "compass/css3/border-radius";
+@import "compass/css3/transform";
+
+.block-container {
+  background-color: $color-background;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+.block-content {
+  blockquote {
+    border: dotted 1px $color-divider;
+    p {
+      margin: 0;
+    }
+  }
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 1rem 0;
+  }
+  ol,
+  ul {
+    line-height: 1.25em;
+    ol,
+    ul {
+      margin: 1em 0 1em 1.2em;
+    }
+  }
+  ol {
+    li {
+      list-style-type: decimal;
+    }
+  }
+  p {
+    line-height: 1.25em;
+    margin: 1em 0;
+  }
+  ul {
+    li {
+      list-style-type: square;
+    }
+  }
+}
+.block-logo {
+  display: block;
+  img {
+    width: 100%;
+  }
+}
+.block-photo {
+  @include border-radius(0.5em);
+  @include rotate(5deg);
+  background-color: $color-info;
+  border: solid 1px $color-divider;
+  margin: 0 1em 1em;
+  padding: 0.5em;
+  img {
+    @include border-radius(0.5em);
+    width: 100%;
+  }
+}
+.block-posts {
+  article {
+    border-bottom: solid 2px $color-divider;
+    margin: 1em 0;
+    padding: 0 1em 1em;
+    iframe {
+      width: 100%;
+    }
+    .meta {
+      @include typography-info;
+      a {
+        @include typography-info;
+        text-decoration: underline;
+      }
+    }
+    &:last-child {
+      border-bottom: 0;
+    }
+  }
+  .more-link {
+    display: block;
+    text-align: right;
+  }
+}
+.block-single-aside {
+  > * {
+    margin-bottom: 1em;
+  }
+}
+.block-slideshow {
+  margin: 0 auto;
+  width: $dimension-slideshow-width;
+}

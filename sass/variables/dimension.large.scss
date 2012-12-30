@@ -1,0 +1,7 @@
+@import "dimension.medium";
+$dimension-container-width: 56.25;
+$dimension-footer-height: 5em;
+$dimension-grid-margin-abs: 1;
+$dimension-grid-margin: ($dimension-grid-margin-abs / $dimension-container-width) * 100%;
+$dimension-grid-num: 4;
+$dimension-grid-width: ((($dimension-container-width - $dimension-grid-margin-abs * ($dimension-grid-num - 1)) / $dimension-grid-num) / $dimension-container-width) * 100%;

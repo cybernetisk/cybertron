@@ -1,0 +1,28 @@
+.block-container {
+  margin: 0 auto;
+  max-width: $dimension-container-width * 1em;
+  padding: 0;
+  width: 100%;
+}
+.block-logo {
+  margin-top: 1em;
+}
+.block-single-aside {
+  @include grid-row;
+  .search {
+    margin-left: 0;
+  }
+}
+.block-single-container {
+  position: relative;
+  hgroup {
+    height: $dimension-main-nav-height;
+  }
+  .block-single-aside {
+    .navigation-main {
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+  }
+}

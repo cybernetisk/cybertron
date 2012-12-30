@@ -1,0 +1,15 @@
+.page-container {
+  .body {
+    @include grid-row;
+    [role="main"] {
+      @include grid-span(2);
+    }
+  }
+}
+.page-footer {
+  @include grid-row;
+  > .grid-item {
+    @include grid-offset;
+    @include grid-span(2);
+  }
+}

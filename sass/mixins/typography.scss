@@ -1,0 +1,42 @@
+@mixin typography-default {
+  color: $color-text;
+  font-family: "Arial", "Tahoma", "Georgia";
+  text-decoration: none;
+  &:hover {
+    color: $color-text;
+    text-decoration: none;
+  }
+}
+@mixin typography-info {
+  color: $color-text-info;
+}
+@mixin typography-link {
+  color: $color-link;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+@mixin typography-title {
+  color: $color-text;
+  font-family: 'Archivo Narrow', sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  text-decoration: none;
+  &:hover {
+    color: $color-text;
+    text-decoration: none;
+  }
+}
+@mixin typography-title-large {
+  @include typography-title;
+  font-size: 2.25em;
+}
+@mixin typography-title-medium {
+  @include typography-title;
+  font-size: 1.75em;
+}
+@mixin typography-title-small {
+  @include typography-title;
+  font-size: 1.4em;
+}

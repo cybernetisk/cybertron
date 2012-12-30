@@ -1,0 +1,54 @@
+a {
+  @include typography-link;
+}
+blockquote {
+  padding: 1em;
+}
+body {
+  @include typography-default;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.25em;
+  margin: 0;
+  a {
+    @include typography-title;
+  }
+}
+h1 {
+  @include typography-title-large;
+}
+h2 {
+  @include typography-title-medium;
+}
+h3 {
+  @include typography-title-small;
+}
+h4,
+h5,
+h6 {
+  @include typography-title;
+}
+header {
+  margin-bottom: 0.5em;
+  a {
+    text-decoration: none;
+  }
+}
+hgroup {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @include typography-default;
+    a {
+      @include typography-default;
+    }
+  }
+}

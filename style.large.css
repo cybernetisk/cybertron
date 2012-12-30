@@ -1,0 +1,99 @@
+/* line 1, sass/patterns/block.large.scss */
+.block-container {
+  max-width: 56.25em;
+}
+
+/* line 5, sass/patterns/block.large.scss */
+.block-posts article:first-child {
+  margin-top: 0;
+}
+
+/* line 3, sass/mixins/grid.medium.scss */
+.block-single-aside > .grid-item {
+  float: none;
+  width: auto;
+  margin-left: 0;
+  width: auto;
+}
+/* line 11, sass/patterns/block.large.scss */
+.block-single-aside .navigation-main {
+  width: 23.667%;
+}
+
+/* line 16, sass/patterns/block.large.scss */
+.block-single-container hgroup {
+  margin-bottom: 1em;
+}
+/* line 19, sass/patterns/block.large.scss */
+.block-single-container .container-inner {
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 18, sass/mixins/grid.medium.scss */
+.block-single-container .container-inner > .grid-item {
+  float: left;
+  margin-left: 1.778%;
+  width: 23.667%;
+}
+/* line 22, sass/mixins/grid.medium.scss */
+.block-single-container .container-inner > .grid-item:first-child {
+  margin-left: 0;
+}
+/* line 21, sass/patterns/block.large.scss */
+.block-single-container .container-inner > div[role='main'] {
+  width: 49.111%;
+}
+
+/* line 1, sass/patterns/navigation.large.scss */
+.navigation-main {
+  background-image: url("img/penguin-happy.png");
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  padding-bottom: 200px;
+  width: 10em;
+}
+
+/* line 2, sass/patterns/page.large.scss */
+.page-container .body {
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 18, sass/mixins/grid.medium.scss */
+.page-container .body > .grid-item {
+  float: left;
+  margin-left: 1.778%;
+  width: 23.667%;
+}
+/* line 22, sass/mixins/grid.medium.scss */
+.page-container .body > .grid-item:first-child {
+  margin-left: 0;
+}
+/* line 4, sass/patterns/page.large.scss */
+.page-container .body [role="main"] {
+  width: 49.111%;
+}
+
+/* line 9, sass/patterns/page.large.scss */
+.page-footer {
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 18, sass/mixins/grid.medium.scss */
+.page-footer > .grid-item {
+  float: left;
+  margin-left: 1.778%;
+  width: 23.667%;
+}
+/* line 22, sass/mixins/grid.medium.scss */
+.page-footer > .grid-item:first-child {
+  margin-left: 0;
+}
+/* line 11, sass/patterns/page.large.scss */
+.page-footer > .grid-item {
+  margin-left: 23.667%;
+  width: 49.111%;
+}
+/* line 12, sass/mixins/grid.medium.scss */
+.page-footer > .grid-item:first-child {
+  margin-left: 25.444%;
+}

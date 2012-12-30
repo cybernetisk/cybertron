@@ -1,0 +1,80 @@
+/**
+ * Color scheme from http://colorschemedesigner.com/#3E11Tw0w0w0w0
+ */
+/* line 1, sass/patterns/block.medium.scss */
+.block-container {
+  margin: 0 auto;
+  max-width: 43em;
+  padding: 0;
+  width: 100%;
+}
+
+/* line 7, sass/patterns/block.medium.scss */
+.block-logo {
+  margin-top: 1em;
+}
+
+/* line 10, sass/patterns/block.medium.scss */
+.block-single-aside {
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 18, sass/mixins/grid.medium.scss */
+.block-single-aside > .grid-item {
+  float: left;
+  margin-left: 2.326%;
+  width: 48.837%;
+}
+/* line 22, sass/mixins/grid.medium.scss */
+.block-single-aside > .grid-item:first-child {
+  margin-left: 0;
+}
+/* line 12, sass/patterns/block.medium.scss */
+.block-single-aside .search {
+  margin-left: 0;
+}
+
+/* line 16, sass/patterns/block.medium.scss */
+.block-single-container {
+  position: relative;
+}
+/* line 18, sass/patterns/block.medium.scss */
+.block-single-container hgroup {
+  height: 5em;
+}
+/* line 22, sass/patterns/block.medium.scss */
+.block-single-container .block-single-aside .navigation-main {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* line 2, sass/patterns/page.medium.scss */
+.page-container {
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -5em;
+  min-height: 100%;
+}
+/* line 7, sass/patterns/page.medium.scss */
+.page-container .push {
+  display: block;
+  height: 5em;
+}
+
+/* line 12, sass/patterns/page.medium.scss */
+.page-footer {
+  height: 5em;
+  margin: 0 auto;
+}
+
+/* line 2, sass/patterns/tags.medium.scss */
+body,
+html {
+  height: 100%;
+}
+
+/* line 5, sass/patterns/tags.medium.scss */
+body {
+  margin: 0 1em;
+}

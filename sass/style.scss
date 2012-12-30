@@ -1,0 +1,24 @@
+/*
+Theme Name: Cybertron
+Theme URI: https://github.com/cybrairai/cybertron
+Author: Arne Hassel
+Author URI: http://icanhasweb.net/
+Description: A theme designed for Cybernetic Society, makes use of the plugins <a href="http://disqus.com/">Disqus commenting system</a> and <a href="http://thiagosf.net/projects/jquery/skitter/">Skitter</a>.
+Version: 0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: dark, penguin
+Text Domain: dark
+*/
+@import "compass/reset";
+@import "lib/bootstrap";
+@import "variables/color";
+@import "variables/dimension";
+@import "variables/image";
+@import "mixins/typography";
+@import "patterns/block";
+@import "patterns/bootstrap";
+@import "patterns/navigation";
+@import "patterns/page";
+@import "patterns/tags";
+@import "unique/index";

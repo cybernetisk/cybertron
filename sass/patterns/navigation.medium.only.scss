@@ -1,0 +1,7 @@
+@import "compass/typography/lists/horizontal-list";
+
+.navigation-main {
+  ul.nav {
+    @include horizontal-list;
+  }
+}
