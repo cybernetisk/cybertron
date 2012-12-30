@@ -9,8 +9,7 @@
 .page-footer {
   @include grid-row;
   > .grid-item {
-    @include grid-offset;
-    @include grid-span(2);
+    @include grid-span(3);
   }
 }
 .page-sidebar {

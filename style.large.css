@@ -81,15 +81,10 @@
 }
 /* line 11, sass/patterns/page.large.scss */
 .page-footer > .grid-item {
-  margin-left: 23.667%;
-  width: 49.111%;
-}
-/* line 12, sass/mixins/grid.medium.scss */
-.page-footer > .grid-item:first-child {
-  margin-left: 25.444%;
+  width: 74.556%;
 }
 
-/* line 16, sass/patterns/page.large.scss */
+/* line 15, sass/patterns/page.large.scss */
 .page-sidebar {
   background-image: url("img/penguin-happy.png");
   background-position: left bottom;
