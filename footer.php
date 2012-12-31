@@ -15,15 +15,7 @@
     <div class="push"></div>
 </div>
 <footer class="block-container page-footer">
-    <nav class="grid-item navigation">
-        <?php
-            wp_nav_menu( array(
-                'container_class' => 'tabbable tabs-below',
-                'items_wrap' => '<ul id="%1$s" class="nav nav-tabs %2$s">%3$s</ul>',
-                'theme_location' => 'footer_navigation'
-                ) );
-        ?>
-    </nav>
+    <div class="container-inner">Theme by <a href="http://icanhasweb.net">Arne Hassel</a>, with help from <a href="http://veledaonthewing.wordpress.com/">Veronika Heimsbakk</a>. All available from <a href="https://github.com/cybrairai/cybertron">github</a>.</div>
 </footer><!-- #MasterFooter -->
 
 <?php wp_footer(); ?>

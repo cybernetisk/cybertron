@@ -1,12 +1,7 @@
 <?php
 
 register_nav_menus( array (
-    'main_navigation' => 'Main navigation',
-    'escape_navigation' => 'Escape navigation',
-    'events_navigation' => 'Events navigation',
-    'social_navigation' => 'Social navigation',
-    'about_navigation' => 'About navigation',
-    'footer_navigation' => 'Footer navigation'
+    'main_navigation' => 'Main navigation'
 ) );
 
 register_sidebar(

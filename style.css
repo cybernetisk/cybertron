@@ -4632,11 +4632,18 @@ form.form-search .input-append .search-query {
   background-color: #cc4d14;
 }
 
-/* line 3, sass/patterns/page.scss */
+/* line 2, sass/patterns/page.scss */
+.page-footer .container-inner {
+  border-top: solid 2px #dddddd;
+  margin-top: 1em;
+  padding: 1em;
+}
+
+/* line 9, sass/patterns/page.scss */
 .page-sidebar aside {
   margin-bottom: 1em;
 }
-/* line 6, sass/patterns/page.scss */
+/* line 12, sass/patterns/page.scss */
 .page-sidebar h3 {
   margin-bottom: 0.25em;
 }

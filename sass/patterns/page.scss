@@ -1,4 +1,10 @@
-
+.page-footer {
+  .container-inner {
+    border-top: solid 2px $color-divider;
+    margin-top: 1em;
+    padding: 1em;
+  }
+}
 .page-sidebar {
   aside {
     margin-bottom: 1em;
