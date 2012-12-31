@@ -1,11 +1,14 @@
 
 .navigation-aside {
-  .nav > li > a {
-    border: solid 2px $color-divider;
-    margin-bottom: 0.5em;
-    padding: 0.5em;
-    &:hover {
-      border-color: $color-link;
+  .menu {
+    @extend .nav;
+    > li > a {
+      border: solid 2px $color-divider;
+      margin-bottom: 0.5em;
+      padding: 0.5em;
+      &:hover {
+        border-color: $color-link;
+      }
     }
   }
 }

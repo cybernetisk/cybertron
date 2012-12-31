@@ -9,6 +9,17 @@ register_nav_menus( array (
     'footer_navigation' => 'Footer navigation'
 ) );
 
+register_sidebar(
+    array (
+        'name' => __( 'Sidebar menus', 'theme_text_domain' ),
+        'id' => 'sidebar-menus',
+        'before_widget' => '<aside id="%1$s" class="grid-item navigation-aside %2$s">',
+        'after_widget' => '</aside>',
+        'before_title' => '<h3>',
+        'after_title' => '</h3>'
+    )
+);
+
 function disqus_embed($disqus_shortname) {
     global $post;
     wp_enqueue_script('disqus_embed','http://'.$disqus_shortname.'.disqus.com/embed.js');

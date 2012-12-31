@@ -19,7 +19,11 @@
     float: left;
     margin-left: $dimension-grid-margin;
     width: $dimension-grid-width;
-    &:first-child {
+    &:nth-child(#{$dimension-grid-num}n) {
+      clear: right;
+    }
+    &:nth-child(#{$dimension-grid-num}n + 1) {
+      clear: left;
       margin-left: 0;
     }
   }

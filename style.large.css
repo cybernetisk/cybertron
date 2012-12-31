@@ -36,7 +36,12 @@
   width: 23.667%;
 }
 /* line 22, sass/mixins/grid.medium.scss */
-.block-single-container .container-inner > .grid-item:first-child {
+.block-single-container .container-inner > .grid-item:nth-child(4n) {
+  clear: right;
+}
+/* line 25, sass/mixins/grid.medium.scss */
+.block-single-container .container-inner > .grid-item:nth-child(4n + 1) {
+  clear: left;
   margin-left: 0;
 }
 /* line 21, sass/patterns/block.large.scss */
@@ -56,7 +61,12 @@
   width: 23.667%;
 }
 /* line 22, sass/mixins/grid.medium.scss */
-.page-container .body > .grid-item:first-child {
+.page-container .body > .grid-item:nth-child(4n) {
+  clear: right;
+}
+/* line 25, sass/mixins/grid.medium.scss */
+.page-container .body > .grid-item:nth-child(4n + 1) {
+  clear: left;
   margin-left: 0;
 }
 /* line 4, sass/patterns/page.large.scss */
@@ -76,7 +86,12 @@
   width: 23.667%;
 }
 /* line 22, sass/mixins/grid.medium.scss */
-.page-footer > .grid-item:first-child {
+.page-footer > .grid-item:nth-child(4n) {
+  clear: right;
+}
+/* line 25, sass/mixins/grid.medium.scss */
+.page-footer > .grid-item:nth-child(4n + 1) {
+  clear: left;
   margin-left: 0;
 }
 /* line 11, sass/patterns/page.large.scss */

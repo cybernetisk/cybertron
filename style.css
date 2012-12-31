@@ -2310,7 +2310,11 @@ input[type="submit"].btn.btn-mini {
 .nav-list > .active > a > [class^="icon-"],
 .nav-list > .active > a > [class*=" icon-"],
 .navbar-inverse .nav > .active > a > [class^="icon-"],
+.navbar-inverse .navigation-aside .menu > .active > a > [class^="icon-"],
+.navigation-aside .navbar-inverse .menu > .active > a > [class^="icon-"],
 .navbar-inverse .nav > .active > a > [class*=" icon-"],
+.navbar-inverse .navigation-aside .menu > .active > a > [class*=" icon-"],
+.navigation-aside .navbar-inverse .menu > .active > a > [class*=" icon-"],
 .dropdown-menu > li > a:hover > [class^="icon-"],
 .dropdown-menu > li > a:hover > [class*=" icon-"],
 .dropdown-menu > .active > a > [class^="icon-"],
@@ -3319,25 +3323,25 @@ input[type="submit"].btn.btn-mini {
 }
 
 /* line 2371, sass/lib/bootstrap.scss */
-.nav {
+.nav, .navigation-aside .menu {
   margin-left: 0;
   margin-bottom: 20px;
   list-style: none;
 }
 
 /* line 2376, sass/lib/bootstrap.scss */
-.nav > li > a {
+.nav > li > a, .navigation-aside .menu > li > a {
   display: block;
 }
 
 /* line 2379, sass/lib/bootstrap.scss */
-.nav > li > a:hover {
+.nav > li > a:hover, .navigation-aside .menu > li > a:hover {
   text-decoration: none;
   background-color: #eeeeee;
 }
 
 /* line 2383, sass/lib/bootstrap.scss */
-.nav > .pull-right {
+.nav > .pull-right, .navigation-aside .menu > .pull-right {
   float: right;
 }
 
@@ -3354,7 +3358,7 @@ input[type="submit"].btn.btn-mini {
 }
 
 /* line 2396, sass/lib/bootstrap.scss */
-.nav li + .nav-header {
+.nav li + .nav-header, .navigation-aside .menu li + .nav-header {
   margin-top: 9px;
 }
 
@@ -3567,14 +3571,14 @@ input[type="submit"].btn.btn-mini {
 }
 
 /* line 2549, sass/lib/bootstrap.scss */
-.nav .dropdown-toggle .caret {
+.nav .dropdown-toggle .caret, .navigation-aside .menu .dropdown-toggle .caret {
   border-top-color: #0088cc;
   border-bottom-color: #0088cc;
   margin-top: 6px;
 }
 
 /* line 2554, sass/lib/bootstrap.scss */
-.nav .dropdown-toggle:hover .caret {
+.nav .dropdown-toggle:hover .caret, .navigation-aside .menu .dropdown-toggle:hover .caret {
   border-top-color: #005580;
   border-bottom-color: #005580;
 }
@@ -3586,7 +3590,7 @@ input[type="submit"].btn.btn-mini {
 }
 
 /* line 2562, sass/lib/bootstrap.scss */
-.nav .active .dropdown-toggle .caret {
+.nav .active .dropdown-toggle .caret, .navigation-aside .menu .active .dropdown-toggle .caret {
   border-top-color: #fff;
   border-bottom-color: #fff;
 }
@@ -3598,23 +3602,26 @@ input[type="submit"].btn.btn-mini {
 }
 
 /* line 2570, sass/lib/bootstrap.scss */
-.nav > .dropdown.active > a:hover {
+.nav > .dropdown.active > a:hover, .navigation-aside .menu > .dropdown.active > a:hover {
   cursor: pointer;
 }
 
 /* line 2575, sass/lib/bootstrap.scss */
 .nav-tabs .open .dropdown-toggle,
 .nav-pills .open .dropdown-toggle,
-.nav > li.dropdown.open.active > a:hover {
+.nav > li.dropdown.open.active > a:hover,
+.navigation-aside .menu > li.dropdown.open.active > a:hover {
   color: #ffffff;
   background-color: #999999;
   border-color: #999999;
 }
 
 /* line 2582, sass/lib/bootstrap.scss */
-.nav li.dropdown.open .caret,
+.nav li.dropdown.open .caret, .navigation-aside .menu li.dropdown.open .caret,
 .nav li.dropdown.open.active .caret,
-.nav li.dropdown.open a:hover .caret {
+.navigation-aside .menu li.dropdown.open.active .caret,
+.nav li.dropdown.open a:hover .caret,
+.navigation-aside .menu li.dropdown.open a:hover .caret {
   border-top-color: #ffffff;
   border-bottom-color: #ffffff;
   opacity: 1;
@@ -3767,12 +3774,12 @@ input[type="submit"].btn.btn-mini {
 }
 
 /* line 2687, sass/lib/bootstrap.scss */
-.nav > .disabled > a {
+.nav > .disabled > a, .navigation-aside .menu > .disabled > a {
   color: #999999;
 }
 
 /* line 2690, sass/lib/bootstrap.scss */
-.nav > .disabled > a:hover {
+.nav > .disabled > a:hover, .navigation-aside .menu > .disabled > a:hover {
   text-decoration: none;
   background-color: transparent;
   cursor: default;
@@ -4591,7 +4598,7 @@ form.form-search .input-append .search-query {
 }
 
 /* line 21, sass/patterns/bootstrap.scss */
-.nav {
+.nav, .navigation-aside .menu {
   margin-bottom: 0;
 }
 
@@ -4602,26 +4609,26 @@ form.form-search .input-append .search-query {
   margin-right: 0;
 }
 
-/* line 3, sass/patterns/navigation.scss */
-.navigation-aside .nav > li > a {
+/* line 5, sass/patterns/navigation.scss */
+.navigation-aside .menu > li > a {
   border: solid 2px #dddddd;
   margin-bottom: 0.5em;
   padding: 0.5em;
 }
-/* line 7, sass/patterns/navigation.scss */
-.navigation-aside .nav > li > a:hover {
+/* line 9, sass/patterns/navigation.scss */
+.navigation-aside .menu > li > a:hover {
   border-color: #ff9900;
 }
 
-/* line 13, sass/patterns/navigation.scss */
-.navigation-main .nav > li > a {
+/* line 16, sass/patterns/navigation.scss */
+.navigation-main .nav > li > a, .navigation-main .navigation-aside .menu > li > a, .navigation-aside .navigation-main .menu > li > a {
   background-color: #ff9900;
   color: white;
   margin-bottom: 0.5em;
   padding: 0.5em;
 }
-/* line 18, sass/patterns/navigation.scss */
-.navigation-main .nav > li > a:hover {
+/* line 21, sass/patterns/navigation.scss */
+.navigation-main .nav > li > a:hover, .navigation-main .navigation-aside .menu > li > a:hover, .navigation-aside .navigation-main .menu > li > a:hover {
   background-color: #cc4d14;
 }
 
